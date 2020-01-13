@@ -1,2 +1,2 @@
 # Genomics
-Homework solution for Genomics by ZY in Wuhan University
+Homework solutions for Genomics by ZY in Wuhan University
