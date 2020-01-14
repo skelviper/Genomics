@@ -1,0 +1,25 @@
+1. Alternative polyadenylation
+XXX XXX XXX XXX
+
+2. RNA structure
+XXX XXX XXX XXX
+
+3. m6A modification
+XXX XXX XXX XXX
+
+4. experimental design
+XXX XXX XXX XXX
+
+1. Alternative polyadenylation
+研究可变多聚腺苷酸化的技术主要是PAS-seq和WTTS-seq。这样的测序方法可以更好的识别polyA连接。PAS-seq即Poly(A) Site Sequencing，WTTS-seq指Whole Transcriptome Termini Site Sequencing 。这两种技术非常相似。首先是提取总RNA，然后将其片段化，富集带有PolyA尾的RNA。 以其作为模板利用带有多个T碱基的引物进行反转录反应合成第一链，这个过程中同时同时连接上5‘和3’接头，再用RNaseH消化RNA，进行PCR然后测序。WTTS-seq对PAS-seq技术进行了一定的改进，特别是优化了引物设计。
+2. RNA structure
+主要通过icSHAPE和PARIS来研究RNA结构。PARIS指Psoralen Analysis of RNA Interactions and Structures,包括体内交联，2D凝胶纯化，临近连接和高通量测序。通过这种方法可以测定转录组的碱基配对情况。icSHAPE
+
+3. m6A modification
+
+
+4. experimental design
+XXX XXX XXX XXX
+
+
+icshape

@@ -1,0 +1,21 @@
+Question	Answer
+1. SangerGel	TATGAAAATCTG
+
+What is the template seq: 
+    complement seq:ATACTTTTAGAC from top to bottom
+    so the template seq: TATGAAAATCTG
+2. FulGel	TTTTCTGCATAA
+    Template seq of the gel:
+        complement seq is: AAAAGACGTATT(top to bottom)
+        so the template :TTTTCTGCATAA
+3.1 Assembly	AGCAGGTGGAATTGGTGTATTCAGCTTGCTCGATTTGATCGATCTGCAA
+                TTCAGCTTGCTCATTTGATCGATCTGCAAAGCAGAGCAGGTGGAATAATTGGTGTATTTG
+CTCGATTTGATTGATCGATCTG    sequence length is 49, it's a circle.
+                TTCAGCTTGCTCGATTTGATCGATCTGCAAAGCAGGTGGAATTGGTGTA 这个是手动拼装的版本
+3.2 Circle	True
+4.1.1 Kmer	GTG
+4.1.2 KmerDepth	11
+4.2.1 Random	A
+4.2.2 LargeRepeat	B
+4.2.3 SINE	C
+5. Rfam family accession	RF01370

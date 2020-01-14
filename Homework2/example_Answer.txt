@@ -1,0 +1,8 @@
+1. Please describe the ”four breakthrough” in sequencing technology. (10’)
+XXX XXX XXX XXX XXX
+
+2. Please describe the SBC (5’) and SBS (5’) method and explain why the SBC method cannot be promoted on a large scale (10’).
+XXX XXX XXX XXX XXX
+
+3. Please explain what is bridge-PCR in your own words according to Illumina’s introduction (10’).
+XXX XXX XXX XXX XXX
