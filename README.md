@@ -1,5 +1,7 @@
 # Genomics
-Homework solutions for Genomics by ZY in Wuhan University
+![DNA in hand](.images\image-20200115004139547.png)
+
+**Homework solutions for Genomics by ZY in Wuhan University**
 
 这里我们总结了2019年周《基因组学》的作业内容。并对其中一些有点难度的问题进行了解答。
 
