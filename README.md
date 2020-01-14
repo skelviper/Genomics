@@ -1,5 +1,5 @@
 # Genomics
-![DNA in hand](.images\image-20200115004139547.png)
+![DNA in hand](.images/image-20200115004139547.png)
 
 **Homework solutions for Genomics by ZY in Wuhan University**
 
