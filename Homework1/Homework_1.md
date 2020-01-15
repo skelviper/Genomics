@@ -75,14 +75,10 @@ CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
 &=3327 -132-30\\&=3165
 \end{align}" />  
 
-
-
-
-$$
-\begin{align}
+![](http://latex.codecogs.com/gif.latex?\begin{align}
 CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
 &=3327 -132-30\\&=3165
-\end{align}
-$$
+\end{align})
+
 最后，ProteinSequence，BlockSequence和ExpandIDs都可以利用Table browser查询得到。
 
