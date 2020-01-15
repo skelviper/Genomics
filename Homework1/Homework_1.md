@@ -70,15 +70,7 @@ BED12 其实是BED3 加上九个可选阈
 
 CDS length的计算利用了Thick end和Thick start：
 
-<img src="http://latex.codecogs.com/gif.latex?\begin{align}
-CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
-&=3327 -132-30\\&=3165
-\end{align}" />  
-
-![](http://latex.codecogs.com/gif.latex?\begin{align}
-CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
-&=3327 -132-30\\&=3165
-\end{align})
-
 最后，ProteinSequence，BlockSequence和ExpandIDs都可以利用Table browser查询得到。
 
+![](http://latex.codecogs.com/gif.latex?\begin{align}
+CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\&=3327 -132-30\\&=3165\end{align})
