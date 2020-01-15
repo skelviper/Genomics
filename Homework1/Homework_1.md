@@ -3,7 +3,7 @@
 **这个作业的主要难点在于第三道题。**
 
 > 3. Please search for the uc002rpz.3 transcript in the UCSC genome browser (hg19) and respond to following instructions or questions.
->   • Extract this transcript as BED12 format (5’) 
+>     • Extract this transcript as BED12 format (5’) 
 >
 >   • Number of isoforms (from UCSC Genes annotation) (5’) （isoform代表Alternative Splicing的结果）
 >
@@ -28,7 +28,7 @@
 
 点击搜索之后会遇到满屏幕的信息无从下手，仔细观察后我们点击红色圆圈部分，找到GO Annotation，这里我们可以查询到它的isoform信息，在这个例子中它只有一种剪切方式，随意第二问回答1.   
 
-![image-20200115010306424](C:%5CUsers%5Cskelv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200115010306424.png)
+![image-20200115010306424](.images/image-20200115010306424.png)
 
 找到 **table browser**  选择 get output —> get BED，这样我们可以得到这个基因的BED12信息：
 
@@ -69,6 +69,15 @@ BED12 其实是BED3 加上九个可选阈
 这里有一个trick ，虽然bed12中的chrom-end是0 based，但是一旦我们在正常的交流中讨论这个问题，比如说这里我们问他的转录起始位点，这个情况要根据人们的生活习惯来，将编码方式变为1 based，所以在这个例子中，TSS是37458740 而不是 37458739 。 与此相似的，我们可以回答CDS end site 应该是37428907而不是37428906 。
 
 CDS length的计算利用了Thick end和Thick start：
+
+<img src="http://latex.codecogs.com/gif.latex?\begin{align}
+CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
+&=3327 -132-30\\&=3165
+\end{align}" />  
+
+
+
+
 $$
 \begin{align}
 CDS~length &= mRNA~length-(ThickStart - ChromStart)-(ChromEnd - ThickEnd)\\
